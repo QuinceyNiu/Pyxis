@@ -46,7 +46,7 @@ cv.destroyAllWindows()
 
 '''
 # 图像操作
-img = cv.imread("./image/template.jpg")
+img = cv.imread("../image/template.jpg")
 hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
 
 # 定义HSV中蓝色的范围
