@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 # 视频操作
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(1)
 
 while (1):
     # 读取帧
